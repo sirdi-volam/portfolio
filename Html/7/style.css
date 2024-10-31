@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+
+.form-contacts {
+  background: rgb(30, 31, 41);
+}
+
+.head1 {
+  color: rgb(250, 250, 250);
+}
+
+.e-mail-label,
+.telegram-label,
+.theme-label,
+.commit-label {
+  color: rgb(175, 178, 191);
+}
+
+.email-inp::placeholder,
+.telegram-inp::placeholder,
+.theme-inp::placeholder,
+.commit-text::placeholder {
+  color: rgb(250, 250, 250);
+  background: rgb(46, 45, 61);
+}
+
+.btn-send {
+  color: rgb(250, 250, 250);
+  background: rgb(108, 56, 204);
+}
